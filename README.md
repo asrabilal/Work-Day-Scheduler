@@ -20,10 +20,9 @@ JQuery
 
 # ScreenShots
 
-![Home Page](./Assets/images/11.png)               
-![Showing color effects](./Assets/images/12.png)      
-![Hover effect on save button](./Assets/images/13.png)
-
+![Home Page](./Assests/images/11.png)
+![Showing color effects](./Assests/images/12.png)
+![Hover effect on save button](./Assests/images/13.png)
 
 
 # Links
