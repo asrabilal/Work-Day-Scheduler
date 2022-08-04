@@ -4,7 +4,7 @@
 
 # About Project:
 
-The purpose of this challenge to create a calender application or daily planner that allows user to maintain his important events from thier busy schedule during busniess hours. This app runs in the brower with the help of themed component of HTML, CSS and JAVASCRIPT and powered by JQuery.
+The purpose of this challenge is to create a calendar application or daily planner that allows users to maintain their important events from their busy schedules during business hours. This app runs in the browser with the help of themed components of HTML, CSS, and JAVASCRIPT and is powered by JQuery.
 
 
 # Tech:
