@@ -1,0 +1,169 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1;
+}
+
+textarea{
+    background: transparent;
+    border: none;
+    resize: none;
+    color: #000000;
+    border-left: 1px solid black;
+    padding: 10px;
+}
+
+.jumbotron {
+    text-align: center;
+    background-color: transparent;
+    color: black;
+    border-radius: 0;
+    border-bottom: 10px solid black;
+    margin-bottom: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.description{
+    white-space: pre-wrap;
+}
+
+.time-block{
+    text-align: center;
+    border-radius: 15px;
+}
+
+.row {
+    white-space: pre-wrap;
+    height: 80px;
+    border-top: 1px solid white;;
+}
+
+.hour {
+    background-color: #ffffff;
+    color: #000000;
+    border-top: 1px dashed #000000;
+}
+
+.past {
+    background-color: #d3d3d3;
+}
+
+.present {
+    background-color: #ff6961;
+}
+
+.future {
+    background-color: #77dd77;
+}
+
+.saveBtn {
+    border-left: 1px solid black;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #06AED5;
+    color: white;
+}
+
+.saveBtn i:hover {
+    font-size: 20px;
+    transition: all .3s ease-in-out;
+}
+
+/*Work Css*/
+p{
+    margin: 10px 0;
+}
+.grd-cal{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 11fr 1fr;
+    align-items: center;
+}
+.bx{
+    border: 1px solid #dddddd;
+    height: 60px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+}
+.bx-event{
+    background-color: #cccccc;
+    color: black;
+    padding: 0;
+}
+.bx-btn{
+        background-color:#0897de ;
+    border-radius: 0 20px 20px 0;
+    border-left: 1px solid #000000;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+}
+.bx-btn button i{
+    font-size: 20px;
+    transition: .3s;
+}
+.bx-btn button:hover i{
+    color: #000000;
+    transform: scale(1.2);
+}
+.bx-btn button:focus{
+    border: none;
+    box-shadow: none;
+}
+.bx-btn button:focus i{
+    transform: scale(1.2);
+    border: none;
+    box-shadow: none;
+}
+.danger-bg{
+    background-color: #e00404;
+    color: #ffffff;
+}
+.bx-time.bx{
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    border-bottom: 1px dashed #000000;
+    border-right: 1px solid #000000;
+    border-left: 1px solid #000000;
+}
+input{
+    outline: none;
+    box-shadow: none!important;
+}
+.success-bg{
+    background-color: #46e004;
+    color: #ffffff;
+}
+button{
+    background-color: transparent;
+    border: none;
+    color: #ffffff;
+}
+i.la-check{
+    color:green ;
+    font-size: 20px;
+}
+.fc-timegrid-now-indicator-line{
+    background-color: green!important;
+    border-color: green!important;
+    padding: 2px;
+}
+.fc-timegrid-now-indicator-arrow{
+    /*background-color: green!important;*/
+    border-color: green!important;
+}
+.fc-event-past{background:red;}
+#show_time{
+    color: gray;
+    font-size: 15px;
+}
+#showNotificationHere{
+    text-align: center;
+}

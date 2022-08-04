@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fullcalendar-scheduler@5.11.2/main.min.css" />
+    <!--Bootstrap CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./Assests/css/style.css" />
+    <link rel="icon" type="image/png" href="./Assests/images/AB-1.png">
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <title>Work Day Scheduler</title>
+</head>
+
+<body>
+<header class="jumbotron">
+    <h1 class="display-3">Work Day Scheduler</h1>
+    <p class="lead">A simple calendar app for scheduling your work day</p>
+    <p id="currentDay" class="lead"></p>
+</header>
+<div id="showNotificationHere"></div>
+<div class="container mainBox">
+    <div class="grd-cal" data-hour="9">
+        <div class="bx-time bx">
+            9AM
+        </div>
+        <div class="bx-event bx"  onclick="editEvent(9)"></div>
+        <div class="bx-btn bx">
+            <button onclick="saveEvent(9)"><i class="las la-save"></i></button>
+        </div>
+    </div>
+    <div class="grd-cal" data-hour="10">
+        <div class="bx-time bx">
+            10AM
+        </div>
+        <div class="bx-event bx"  onclick="editEvent(10)"></div>
+        <div class="bx-btn bx">
+            <button onclick="saveEvent(10)"><i class="las la-save"></i></button>
+        </div>
+    </div>
+    <div class="grd-cal" data-hour="11">
+        <div class="bx-time bx">
+            11AM
+        </div>
+        <div class="bx-event bx" onclick="editEvent(11)"></div>
+        <div class="bx-btn bx">
+            <button onclick="saveEvent(11)"><i class="las la-save"></i></button>
+        </div>
+    </div>
+    <div class="grd-cal" data-hour="12">
+        <div class="bx-time bx">
+            12PM
+        </div>
+        <div class="bx-event bx"  onclick="editEvent(12)"></div>
+        <div class="bx-btn bx">
+            <button onclick="saveEvent(12)"><i class="las la-save"></i></button>
+        </div>
+    </div>
+    <div class="grd-cal" data-hour="13">
+        <div class="bx-time bx">
+            1PM
+        </div>
+        <div class="bx-event bx" onclick="editEvent(13)"></div>
+        <div class="bx-btn bx">
+            <button onclick="saveEvent(13)"><i class="las la-save"></i></button>
+        </div>
+    </div>
+    <div class="grd-cal" data-hour="14">
+        <div class="bx-time bx">
+            2PM
+        </div>
+        <div class="bx-event bx" onclick="editEvent(14)"></div>
+        <div class="bx-btn bx">
+            <button onclick="saveEvent(14)"><i class="las la-save"></i></button>
+        </div>
+    </div>
+    <div class="grd-cal" data-hour="15">
+        <div class="bx-time bx">
+            3PM
+        </div>
+        <div class="bx-event bx" onclick="editEvent(15)"></div>
+        <div class="bx-btn bx">
+            <button onclick="saveEvent(15)"><i class="las la-save"></i></button>
+        </div>
+    </div>
+    <div class="grd-cal" data-hour="16">
+        <div class="bx-time bx">
+            4PM
+        </div>
+        <div class="bx-event bx" onclick="editEvent(16)"></div>
+        <div class="bx-btn bx">
+            <button onclick="saveEvent(16)"><i class="las la-save"></i></button>
+        </div>
+    </div>
+    <div class="grd-cal" data-hour="17">
+        <div class="bx-time bx">
+            5PM
+        </div>
+        <div class="bx-event bx" onclick="editEvent(17)"></div>
+        <div class="bx-btn bx">
+            <button onclick="saveEvent(17)"><i class="las la-save"></i></button>
+        </div>
+    </div>
+
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fullcalendar-scheduler@5.11.2/main.min.js"></script>
+<!--javascript code-->
+<script src="./Assests/js/script.js"></script>
+</body>
+</html>
